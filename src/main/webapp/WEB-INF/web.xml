@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        version="4.0"
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+  <display-name>Movie API Application</display-name>
+
+  <!--  &lt;!&ndash; Define MovieServlet &ndash;&gt;-->
+  <!--  <servlet>-->
+  <!--    <servlet-name>MovieServlet</servlet-name>-->
+  <!--    <servlet-class>com.moses.sorting.servlet.MovieServlet</servlet-class>-->
+  <!--  </servlet>-->
+
+  <!--  &lt;!&ndash; Map MovieServlet to /movies/* &ndash;&gt;-->
+  <!--  <servlet-mapping>-->
+  <!--    <servlet-name>MovieServlet</servlet-name>-->
+  <!--    <url-pattern>/movies/*</url-pattern>-->
+  <!--  </servlet-mapping>-->
+
+  <!-- Optional: Context Initialization Parameters -->
+  <context-param>
+    <param-name>exampleParam</param-name>
+    <param-value>exampleValue</param-value>
+  </context-param>
+
+  <!-- Welcome File (if any, like index.html) -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+  <!--  &lt;!&ndash; Error Page Configuration (optional) &ndash;&gt;-->
+  <!--  <error-page>-->
+  <!--    <error-code>404</error-code>-->
+  <!--    <location>/error404.html</location>-->
+  <!--  </error-page>-->
+</web-app>
